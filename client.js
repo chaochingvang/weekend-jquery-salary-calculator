@@ -38,8 +38,8 @@ function addEmployee() {
 }
 
 function deleteEmployee() {
-    console.log($(this).parent().val());
-    // $(this).closest(`tr`).remove();
+    // console.log($(this).parent().val());
+    console.log($(this).closest(`tr`).val());
 }
 
 
