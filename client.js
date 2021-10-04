@@ -40,6 +40,7 @@ function addEmployee() {
 function deleteEmployee() {
     // console.log($(this).parent().val());
     console.log($(this).closest(`tr`).val());
+    $(this).closest(`tr`).remove();
 }
 
 
